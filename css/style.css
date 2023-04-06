@@ -1,0 +1,77 @@
+.attribution { 
+    font-size: 11px; text-align: center;
+    color: #fff;
+}
+.attribution a { 
+    color: white; 
+}
+
+body{
+   background-color: hsl(257, 40%, 49%);
+   background-image: url(./images/bg-desktop.svg);
+
+   
+}
+
+header{
+    padding: 30px;
+    margin-left: 20px;    
+}
+
+.principal{
+
+    margin-left: 70px;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    align-items: top;
+    justify-items: right;
+    color: #fff;
+    
+}
+
+.principal h1{
+    font-size: 3em;
+    margin-left: 60px;
+    margin-top: 20px;
+
+}
+
+.principal p{
+    margin-left: 60px;
+    font-size: 1.2em;
+}
+
+.btn{
+    margin-left: 60px;
+    padding: 20px 70px;
+    border-radius: 30px;
+    box-shadow: 2px 2px 2px black;
+    color: hsl(257, 40%, 49%);
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: hsl(300, 69%, 71%);
+    color: #fff;
+}
+
+.img{
+    margin-left: 1300px;
+    cursor: pointer;
+}
+
+.imagem{
+    margin-left: 7px;
+    width: 20px;
+    border: 2px solid black;
+    padding: 7px;
+    border-radius: 10px;
+    color: #fff;
+    filter: invert(75%);
+    margin-bottom: 20px;
+}
+
+.imagem:hover{
+    filter: invert(55%);
+    -webkit-filter: brightness(70%);
+}
